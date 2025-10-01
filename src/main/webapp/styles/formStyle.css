@@ -1,0 +1,186 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 30, 2025, 3:43:16 PM
+    Author     : anastacio
+*/
+
+@import url("./global.css");
+
+body{
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+    font-family: "Quicksand", sans-serif;
+}
+
+
+form[name="form_nuevo_usuario"]{
+    background-color: #3E5577;
+    font-family: "Quicksand", sans-serif;
+    width: 700px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+div[name = titulo]{
+    background-color: black;
+    color: white;
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+div[name = nombre]{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+div[name = correo]{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+div[name = dob]{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+div[name = constrasena]{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+div[name = pseudonimo]{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+div[name = estado]{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+div[name = dob]{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+div[name = cuenta]{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+div[name = tyc]{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+input:focus{
+    background-color: #EDF67D;
+}
+input{
+    border-radius: 4px;
+    height: 25px;
+    font-family: "Quicksand", sans-serif;
+}
+div[name = options]{
+    margin-left: 30px;
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px 12px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#sel_account, #txt_dob, #aceptarTyC{
+    height: 40px;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+#sel_account, #txt_dob{
+    font-weight: 700;
+}
+
+#titulo{
+    font-size: 20px;
+}
+
+div[name="radios_estados"]{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+div[name="radios_estados"] input[type="radio"]{
+    transform: scale(1.6);
+    transform-origin: left center;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+div[name="radios_estados"] label{
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+div[name="radios_estados"] input[type="radio"]:focus-visible + label{
+    outline: 2px solid #EDF67D;
+    outline-offset: 2px;
+    border-radius: 999px;
+    padding: 2px 6px;
+}

@@ -1,0 +1,58 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 30, 2025, 8:55:21 PM
+    Author     : jrasc
+*/
+
+@import url("./global.css");
+
+body{
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+    font-family: "Quicksand", sans-serif;
+}
+
+.tablaUsuarios{
+    background-color: #3E5577;
+    border: 3px solid;
+    padding: 10px 10px 12px;
+    width: 60%;
+    font-family: "Quicksand", sans-serif;
+    border-radius: 10px;
+}
+
+.tablaUsuarios thead th{
+    text-align: center;
+    padding: 1px 5px 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #E27E7C;
+}
+
+.tablaUsuarios tbody td{
+    text-align: center;
+    padding: 1px 5px 10px;
+}
+
+.tablaUsuarios tbody tr:nth-child(even) td:not(:first-child){
+    background: #6D86AE;
+}
+
+.nombre{
+    text-align: center;
+}
+
+.tablaUsuarios tbody tr > td:nth-child(2) span{
+    display: block;
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #E27E7C;
+    text-decoration: underline;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
